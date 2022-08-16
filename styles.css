@@ -1,0 +1,53 @@
+/* CSS Syntax requirements */
+
+/* A Selector */
+/* Property */
+/* Values */
+
+/* 
+Selector {
+    property: Value;
+ }
+  */
+
+/*RGB (A)  */
+/* p{
+    color: rgba(255, 255, 25, 1);
+    background-color: black;
+ } */
+
+/* HSL (A) */
+/* Hue, Saturation & Lightness */
+
+/* Universal Selector */
+
+.navbar {
+  background-color: rgb(14, 4, 73);
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.sub {
+  color: rgb(128, 107, 206);
+  text-transform: uppercase;
+  margin-left: 12rem;
+  margin-right: 35rem;
+}
+.word {
+  color: rgba(136, 136, 139, 0.849);
+  margin-top: auto;
+  margin-bottom: 10px;
+  margin-left: 12rem;
+  margin-right: 15rem;
+  font-size: large;
+  line-height: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
