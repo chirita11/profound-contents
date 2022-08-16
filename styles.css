@@ -22,9 +22,13 @@ Selector {
 /* Universal Selector */
 
 .navbar {
-  background-color: rgb(232, 232, 233);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  word-spacing: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: 1rem;
 }
 
 .nav-list {
@@ -33,6 +37,8 @@ Selector {
 
 .list-item {
   display: inline-block;
+  justify-content: space-between;
+  position: relative;
 }
 
 .sub {
